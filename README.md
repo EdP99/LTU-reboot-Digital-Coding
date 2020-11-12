@@ -1,2 +1,2 @@
 # LTU-reboot-Digital-Coding
-Learning to code
+Learning to code with Leeds Trinity University.
