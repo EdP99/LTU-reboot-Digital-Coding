@@ -1,3 +1,6 @@
 body {
-    background-color: yellow;
+    background-color: aqua;
 }
+p {color:grey;}
+em {color:red;}
+strong {color:blue; font-size: 13;}
