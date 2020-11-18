@@ -1,6 +1,12 @@
 body {
     background-color:gray;
 }
-p {color:grey;}
-em {color:red;}
-strong {color:blue; font-size: 13;}
+p {
+    color:grey;
+}
+em {
+    color:red;
+}
+strong {
+    color:blue; font-size: 13;
+}
