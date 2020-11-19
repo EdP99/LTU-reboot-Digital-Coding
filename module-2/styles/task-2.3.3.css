@@ -1,4 +1,5 @@
-a:hover {
+a:hover 
+{
     color: goldenrod
     font-size: 40px; 
 }
@@ -6,5 +7,5 @@ a:hover {
 a {
     color: grey;
     text-decoration: none;
-    font-size: 39px
+    font-size: 39px;
 }
