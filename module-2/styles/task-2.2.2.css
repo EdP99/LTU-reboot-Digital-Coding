@@ -5,9 +5,9 @@ em {
     color:red;
 }
 strong {
-    color:blue; font-size: 13px;
+    color:blue; font-size: 13pt;
 }
 link {
-    color: teal;
-    font-size: 16px;  
+    color: purple;
+    font-size: 20pt;  
 }
