@@ -1,5 +1,5 @@
-# footer {
-    color: red;
+#footer {
+    color:green;
 }
 .warning{
     color:red;
@@ -8,6 +8,8 @@ p{
     color:blue;
     font-family:'Helvetica';
 }
-#special {
-    font-family: Arial;
+.nice-one {
+    font-family: Cursive;
+    font-weight: bold;
+
 }
