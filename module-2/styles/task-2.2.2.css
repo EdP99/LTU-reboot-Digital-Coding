@@ -1,9 +1,12 @@
 p {
-    color:green;
+    color:blue;
 }
 em {
     color:red;
 }
 strong {
     color:blue; font-size: 13;
+}
+a {
+    color: teal;
 }
