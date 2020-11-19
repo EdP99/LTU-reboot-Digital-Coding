@@ -7,7 +7,7 @@ em {
 strong {
     color:blue; font-size: 13px;
 }
-a {
+link {
     color: teal;
-    font-size: 16px;
+    font-size: 16px;  
 }
