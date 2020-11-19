@@ -1,0 +1,10 @@
+a:hover {
+    color: goldenrod
+    font-size: 40px; 
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+    font-size: 39px
+}
