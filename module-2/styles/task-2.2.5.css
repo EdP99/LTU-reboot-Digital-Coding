@@ -4,3 +4,10 @@
 .warning{
     color:red;
 }
+p{
+    color:blue;
+    font-family:'Helvetica';
+}
+#special {
+    font-family: Arial;
+}
