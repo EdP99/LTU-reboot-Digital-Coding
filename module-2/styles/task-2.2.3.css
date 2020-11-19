@@ -1,1 +1,13 @@
 p{font:italic bold 12px sans-serif;}
+em{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: serif;
+}
+ol{
+    font-style: bold;
+    font-weight: thin;
+    font-size: 25px;
+    font-family: cursive;
+}
