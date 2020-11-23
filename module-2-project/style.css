@@ -9,6 +9,7 @@ body {
     font-size: 14px;
     line-height: 1.5;
 }
+
 h1 {
     margin-bottom: 175px;
 }
@@ -21,11 +22,12 @@ section p {
     margin-top: 80px;
     margin-bottom: 100px;
 }
-
 .image2 img {
-    max-width: 650px;
-    margin-bottom: 20px;
+    max-width: 630px;
+    min-width: 630px;
+    margin-bottom: 10px;
 }
+
 .image2 p {
     background-color: white;
     color: black;
