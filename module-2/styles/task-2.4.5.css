@@ -1,10 +1,10 @@
-.sidebar{
-    float:left;
-    width: 100px:
-    background-color: green;
+.sidebar {
+    float: left;
+    width: 100px;
+    background: green;
 }
 .main {
     float: right;
-    width: 300px:
-    background-color: cyan;
+    width: 300px;
+    background: cyan;
 }
