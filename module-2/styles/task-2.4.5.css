@@ -1,10 +1,14 @@
 .sidebar {
-    float: left;
-    width: 100px;
+    float: right;
+    border: 1px solid red;
+    width: 30%;
+    height: 200px;
     background: green;
 }
 .main {
-    float: right;
-    width: 300px;
+    float: left;
+    border: 1px solid grey;
+    width: 68%;
+    height: 200px;
     background: cyan;
 }
