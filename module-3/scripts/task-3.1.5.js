@@ -1,6 +1,6 @@
 var firstname = 'Ed ';
 var lastname = 'Partridge';
-var fullname = firstname  + lastname;
+var fullname = firstname + lastname;
 
 alert (fullname);
 console.log (fullname);
