@@ -1,5 +1,7 @@
-alert ('Ed Partridge');
+var myname="Ed Partridge";
 
-console.log ('Ed Partridge');
+alert(myname);
 
-document.write ('Ed Partridge')
+console.log(myname);
+
+document.write(myname);
