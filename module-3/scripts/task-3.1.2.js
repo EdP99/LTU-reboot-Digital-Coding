@@ -1,5 +1,12 @@
-alert ('Hello from alert');
 
-console.log ('Hello from the console');
+alert('Its a long road!');
 
-document.write ('Hello from document write')
+console.log('Tricky business!');//Difficult to get to the bottom of this.
+
+document.write('Hello from Doc write!');
+/*
+Trying to get me head around the use of comments and variables in JS
+*/
+
+
+

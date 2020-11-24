@@ -1,3 +1,3 @@
-alert ('Hello world!');
+alert('Hello world!');
 
-console.log ('Secret message');
+console.log('Secret message');
