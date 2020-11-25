@@ -29,3 +29,9 @@ function nameAndAge ( name, age ) {
 }
 
 nameAndAge('Alice', 8);
+
+function message () {
+    console.log ('I am new to this!');
+}
+
+message ();
