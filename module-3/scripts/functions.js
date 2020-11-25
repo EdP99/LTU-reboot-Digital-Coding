@@ -42,9 +42,9 @@ function say ( message ) {
     console.log ( message );
 }
 
-// var result = say('Hello');
+var result = say('Hello');
 
-// console.log ( 'Result', result )
+console.log ( 'Result', result )
 
 function add ( a, b ) {
 
