@@ -4,5 +4,5 @@ for (var index = 0; index < nicefood.length; index++)
 
 {
 
-    document.write( nicefood [index] );
+    document.write( nicefood [index] + '<br>');
 }
