@@ -1,11 +1,10 @@
 
-var nicefood = ['rice', 'chicken', 'beans', 'chocolate', 'crisps', 'ice-cream']; 
+var niceFood = ['rice', 'chicken', 'beans', 'chocolate', 'crisps', 'ice-cream']; 
 
-for (var index = 0; index < nicefood.length; index++)
+for(var index = 0; index < niceFood.length; index++ ) {
 
-{
+    console.log( niceFood[index] );
 
-    console.log( nicefood [index] );
 }
 
     
