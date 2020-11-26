@@ -1,3 +1,9 @@
-var sevenTT
+for(var index = 1; index <= 12; index++) {
+    
+    var number = index * 7;
 
-for (var sevenTT = 1 * 7, index < =)
+    var result = index * number;
+    
+    console.log( number  + ' * ' + index + ' = ' + result );
+
+}
