@@ -5,4 +5,4 @@ pageBody.style.backgroundColor = 'blue';
 
 pageBody.style.marginTop = '50px';
 
-
+var warningParagraph = document.getElementByID ("warning")
