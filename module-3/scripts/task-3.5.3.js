@@ -60,24 +60,13 @@ let shoppingCart = [
     price:.4
   }];
 
-  function discountFood ( arr ) { 
+  function discount ( arr, discountAmount, type ) { 
 
     let totalPrice = 0; 
 
         for  ( let index = 0; index < arr.length; index++ ) {
 
-        if ( arr[index].type === 'food' ) {
-
-          let discount =  ( arr[index].price * 20 ) / 100;
-
-          totalPrice = totalPrice + ( arr [index].price - discount ) * arr[index].quantity;
-
-        } else {
-
-            totalPrice = totalPrice + ( arr[index].price * arr[index].quantity )
-
-        }
-
+        
         
 
     }
@@ -86,6 +75,6 @@ let shoppingCart = [
 
   }
 
- 
+  let shopping = discount( shoppingCart, 15, 'food' );
 
-  console.log( discountFood ( shoppingCart ) );
+  console.log( shopping );
