@@ -21,12 +21,16 @@
     
 }  
   .subHeading {
+    position: relative;
+    top: -40px;  
     color: black;
     font-size: 26px;
     padding-top: none;
   }
   
   h1 {
+    position: relative;
+    top: -15px;
     font-size: 55px;
     padding-bottom:;
     margin: none;
@@ -35,8 +39,12 @@
   .University {
     color: black;
     font-size: 20px;
+    position: relative;
+    top: -15px;
   }
   .fa {
+    position: relative;
+    top: -15px;
     padding: 10px;
     font-size: 5px;
     width: 30px;
@@ -58,6 +66,7 @@
   .fa-linkedin {
       background: #0e76a8;
       color: white;
+      ;
   }
   .fa-github {
       background: #000;
@@ -65,12 +74,14 @@
   }
 
   button {
+    position: relative;
+    top: -10px;
     border: none;
     outline: 0;
     display: inline-block;
     padding: 8px;
     margin-top: none;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     color: white;
     background-color: #000;
     text-align: center;
@@ -79,7 +90,7 @@
     font-size: 18px;
   }
   
-  a {
+  /* a {
     text-decoration: none;
     font-size: 26px;
     color: white;
@@ -87,4 +98,4 @@
   
   button:hover, a:hover {
     opacity: 0.7;
-  }
+  } */
