@@ -1,5 +1,5 @@
 body{
-    font-family: helvetica;
+    font-family: cursive;
     font-weight: normal;
     font-size: 12px;
     color: #000000;
@@ -9,7 +9,7 @@ body{
 #head{
     font-size: 20px;
     color: #33bbff;
-    font-family: helvetica neue;
+    font-family: helvetica;
     font-weight: bold;
 }
 
@@ -20,7 +20,7 @@ body{
 .subhead{
     font-size: 15px;
     color: #e68a00;
-    font-family: helvetica neue;
+    font-family: helvetica;
     font-weight: italic;
 }
 
