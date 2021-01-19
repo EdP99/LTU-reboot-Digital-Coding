@@ -44,19 +44,19 @@ function say ( message ) {
 
 var result = say('Hello');
 
-console.log ( 'Result', result )
+console.log (result)
 
 function add ( a, b ) {
 
     return a + b;
 }
 
-console.log( add (1,2) );
+console.log(add (1,2) );
 
-var onePlusTwo = add ( 1,2 );
+var onePlusTwo = add(1,2);
 
-Var twoPlusTwo = add (2, 2)
+var twoPlusTwo = add(2,2);
 
-console.log( onePlusTwo );
+console.log(onePlusTwo);
 
-console.log( twoPlusTwo );
+console.log(twoPlusTwo);
