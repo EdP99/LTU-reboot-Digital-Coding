@@ -1,25 +1,25 @@
 body{
-    font-family: cursive;
+    font-family: helvetica neue;
     font-weight: normal;
     font-size: 12px;
     color: #000000;
-    background-color: rgb(209, 150, 172);
+    background-color: rgb(223, 202, 210);
 }
 
 #head{
     font-size: 20px;
-    color: #33bbff;
+    color: #153361;
     font-family: helvetica;
     font-weight: bold;
 }
 
 .eyes{
-    font-size: 25px;
+    font-size: 45px;
 }
 
 .subhead{
     font-size: 15px;
-    color: #e68a00;
+    color: #153361;
     font-family: helvetica;
     font-weight: italic;
 }
