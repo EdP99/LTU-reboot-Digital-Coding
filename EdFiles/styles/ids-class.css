@@ -1,4 +1,4 @@
-body {
+body{
     font-family: helvetica;
     font-weight: normal;
     font-size: 12px;
@@ -6,21 +6,21 @@ body {
     background-color: rgb(235, 235, 224);
 }
 
-#head {
+#head{
     font-size: 20px;
     color: #33bbff;
     font-family: helvetica neue;
     font-weight: bold;
 }
 
-.subhead {
+.subhead{
     font-size: 15px;
     color: #e68a00;
     font-family: helvetica neue;
     font-weight: italic;
 }
 
-#video {
+#video{
     font-size: 15px;
     color: #ff0000;
     font-family: helvetica;
