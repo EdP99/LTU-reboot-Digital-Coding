@@ -31,3 +31,9 @@ body{
     font-weight: bold;
 }
 
+table{
+    height: 50px;
+    width: 200px;
+    font-color: red;
+    text-align: center;
+}
