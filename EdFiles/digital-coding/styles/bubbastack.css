@@ -19,10 +19,11 @@ header {
         font-family: 'Exo 2', sans-serif;
         display: flex;
         width: 100%;
+        padding: 0 0 0 ;
         justify-content: center;
         align-items: center;
         background: #000;
-        /*min-height: 5vh;*/
+        min-height: 5vh;
       }
       
       h1 {
@@ -30,9 +31,9 @@ header {
         font-weight: 200;
         font-style: italic;
         color: #fff;
-        /*padding: 4rem 6rem 5.5rem 6rem;
-        /*border: 0.4rem solid #fff;
-        border-radius: 6rem;*/
+        padding: 4rem 6rem 5.5rem 6rem;
+        border: 0.4rem solid #fff;
+        border-radius: 6rem;
         text-transform: uppercase;
         animation: flicker 1.5s infinite alternate;     
       }
@@ -55,19 +56,17 @@ header {
         font: normal;
         font-size: 12pt;
         color: white;
-        padding: 0 0 0 20px;
+        padding: 0 0 0 10px;
+      
 
       #navbar {
-          display: inline;
-          display-width: 100%;
-          padding: none;
-          position: relative;
+          display: flex;
+          width: 100%;
+          position: absolute;
           float: center;
           font: bold 10px 'Exo 2', sans-serif;
-          overflow: hidden;
-          width:100%;
-          -webkit-border-radius: 5px;
-          -moz-border-radius: 5px;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
         }  
 
       }  
@@ -80,24 +79,24 @@ header {
 
       #navbar ul li {
         float: left;
-        width: flex;
+        width: 25%;
       }
 
-      #navbar ul li a {
+      #navbar ul li {
         float: left;
         display: inline;
-        text-align: left;
-        display-height: 20px;
+        text-align: center;
+        display-height: 10px;
         display-width: 100%;
-        padding: 25px;
+        padding: 20 20 50 20;
         background-color: black;
         font-family: 'Exo 2', sans-serif;
         font-size: 11px;
+        }
+
+      #navbar ul li a {
         color: white;
       }
-
-      
-
   
 
       /* Animate neon flicker */
