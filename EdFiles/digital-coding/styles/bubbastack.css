@@ -2,6 +2,7 @@
 header {
   width: 100%;
   height: 100px;
+  margin: auto;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
@@ -18,6 +19,7 @@ header {
       header {
         font-family: 'Exo 2', sans-serif;
         display: flex;
+        margin: auto;
         width: 100%;
         padding: 0% 0% 0% 0%;
         justify-content: left;
@@ -68,6 +70,7 @@ header {
       #navbar {
           display: flex;
           width: 100%;
+          margin: auto;
           position: absolute;
           float: center;
           font: bold 10px 'Exo 2', sans-serif;
