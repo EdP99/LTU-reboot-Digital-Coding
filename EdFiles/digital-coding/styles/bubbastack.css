@@ -1,8 +1,9 @@
 
 header {
   width: 100%;
+  position: relative;
   height: 100px;
-  margin: auto;
+  margin: 0%;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
@@ -71,17 +72,17 @@ header {
           display: flex;
           width: 100%;
           margin: auto;
-          position: absolute;
+          margin-bottom: 5px;
+          position: relative;
           float: center;
           font: bold 10px 'Exo 2', sans-serif;
           /* -webkit-border-radius: 10px;
           -moz-border-radius: 10px; */
         }  
 
-       
       #navbar ul {
         margin: 0;
-        padding: 0px 15px 15px 0px;
+        padding: 0px;
         list-style: none;
         width: 100%;
       }
@@ -145,5 +146,23 @@ header {
     }
   }     
 }
+
+/* Homepage images */
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 2px;
+}
+
+
+
 
 
