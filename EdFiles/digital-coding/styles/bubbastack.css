@@ -170,14 +170,14 @@ header {
   vertical-align: middle;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .column {
   flex: 50%;
   max-width:100%;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
   .column {
     flex: 100%;
     max-width: 100%;
