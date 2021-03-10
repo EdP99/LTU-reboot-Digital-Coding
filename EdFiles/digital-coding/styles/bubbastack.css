@@ -155,11 +155,33 @@ header {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
+  padding: 0 2px;
 }
 
 .column {
-  flex: 33.33%;
-  padding: 2px;
+  flex: 32.92%;
+  max-width: 32.92%;
+  padding: 0 2px;
+}
+
+.column img {
+  margin-top: 4px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+  flex: 50%;
+  max-width: 50%; 
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 
