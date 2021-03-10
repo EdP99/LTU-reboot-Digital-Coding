@@ -161,7 +161,7 @@ header {
 
 .column {
   flex: 32.92%;
-  max-width: 32.92%;
+  max-width:100%;
   padding: 0 2px;
 }
 
@@ -170,14 +170,14 @@ header {
   vertical-align: middle;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .column {
   flex: 50%;
-  max-width: 50%; 
+  max-width:100%;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .column {
     flex: 100%;
     max-width: 100%;
