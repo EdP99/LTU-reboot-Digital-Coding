@@ -167,7 +167,9 @@ header {
 
 .column img {
   margin-top: 4px;
+  margin-bottom: 4px;
   vertical-align: middle;
+  horizontal-align: bottom;
 }
 
 @media screen and (max-width: 400px) {
@@ -184,6 +186,43 @@ header {
   }
 }
 
+/*Footer*/
+        footer h1 {
+        position: relative;
+        font-size: 4rem;
+        font-weight: 200;
+        font-style: italic;
+        color: #fff;
+        padding: 5rem 6rem 5.5rem 6rem;
+        border: 0.4rem solid #fff;
+        border-radius: 6rem;
+        margin-left: 15px;
+        text-transform: uppercase;
+        animation: flicker 1.5s infinite alternate; }
+        
+        footer {
+        font-family: 'Exo 2', sans-serif;
+        display: flex;
+        width: 100%;
+        justify-content: left;
+        align-items: center;
+        padding: 5 5;
+        background: #000;
+        margin-top: 5px;
+        min-height: 3vh;
+        }
+ 
+        footer p {
+        font: normal;
+        font-size: 8pt;
+        color: white;
+        padding: 0 0 0 10px;
+        margin-right: auto;
+        }
+
+        h1:focus {
+          outline: none;
+        }
 
 
 
